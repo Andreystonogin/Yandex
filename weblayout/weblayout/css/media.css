@@ -1,0 +1,511 @@
+@media (max-width:1575px){
+
+  .container {
+    padding-left: 72px;
+    padding-right: 60px;
+  }
+
+  .header {
+    margin-bottom: 80px;
+  }
+
+  .horses-block {
+    padding-left: 0px;
+  }
+
+  .header-section {
+    background-image: url(../img/main1366.png);
+  }
+
+  .tournament-title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+line-height: 135%;
+text-transform: uppercase;
+color: #313131;
+  }
+
+  .tournament-idea {
+    font-weight: 700;
+color: #f54932;
+  }
+
+  .main {
+    visibility: visible;
+    background: #fff;
+  }
+
+  .support-tournament {
+    width: 61%;
+    margin-right: 72px;
+    padding-top: 27px;
+
+  }
+
+  .block-tournament {
+    margin-bottom: 33px;
+  }
+
+  .game-section {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+line-height: 135%;
+text-transform: uppercase;
+color: #313131;
+  }
+
+  .chess-img {
+    width: 60%;
+
+  }
+
+  .table-info-block {
+    position: absolute;
+    left: 43px;
+  }
+
+  .chess-bender {
+    padding-left: 61px;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+
+  .table-info {
+    width: 40%;
+  }
+
+  .table-price {
+    width: 19%;
+  }
+
+  .table-block {
+    columns: 2;
+  }
+
+  .block-table-info {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #313131;
+  }
+
+  .price {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+color: #313131;
+white-space: nowrap;
+width: 56%;
+padding-left: 13px;
+  }
+
+  .table {
+
+    border-bottom: 2px solid #d0d0d0;
+stroke-width: 2px;
+stroke: #d0d0d0;
+padding-bottom: 17px;
+padding-top: 10px;
+  }
+
+  .table-right {
+    padding-right: 19px;
+    border-right: 2px solid #d0d0d0;
+  }
+
+  .title-geme {
+    margin-bottom:49px;
+
+  }
+
+  .decoration {
+    text-decoration: line-through 2px solid  #f54932;
+
+  }
+
+  .table-info-text {
+    margin-bottom: 29px;
+
+  }
+
+  .administrator {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #3057a2;
+  }
+
+  .vasyucov-title {
+    display: block;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 54px;
+line-height: 120%;
+text-transform: uppercase;
+color: #313131;
+
+width: 64%;
+margin-bottom: 50px;
+  }
+
+  .vasyucov-title-text {
+    position: absolute;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 17px;
+line-height: 120%;
+color: #3057a2;
+width: 339px;
+padding-top: 10px;
+padding-left: 18px;
+  }
+
+  .tournament {
+    padding-bottom: 200px;
+  }
+
+  .img1 {
+    margin-bottom: 17px;
+    background-image: url(../img/Frame1366.png);
+    background-size: cover;
+    width: 100%;
+  }
+
+  .vasyukov-block-left:not(:nth-child(2n)){
+    margin-right: 20px;
+
+  }
+
+  .vasyukov-block-left {
+    position: relative;
+  }
+
+  .vasyucov-img {
+    position: relative;
+  }
+
+  .figure {
+    position: absolute;
+    content: "";
+    border-radius: 60px;
+width: 36px;
+height: 36px;
+    background-color: #fff;
+    top: 26px;
+    left: 20px;
+    padding-left: 12px;
+    padding-top: 3px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+color: #313131;
+  }
+
+
+  .figure-text {
+
+    font-family: var(--font-family);
+font-size: 20px;
+line-height: 120%;
+color: #313131;
+top: 5px;
+padding-right: 18px;
+padding-left: 73px;
+padding-top: 24px;
+padding-bottom: 20px;
+font-weight: 500;
+opacity: 0.6;
+  }
+
+  .figure-text-three {
+    font-family: var(--font-family);
+font-size: 20px;
+line-height: 120%;
+color: #313131;
+top: 5px;
+padding-right: 18px;
+padding-left: 73px;
+padding-top: 24px;
+padding-bottom: 80px;
+font-weight: 500;
+opacity: 0.6;
+  }
+
+
+  .vasyukov-block-info {
+ width: 65%;
+justify-content: space-between;
+
+  }
+
+  .palace {
+    padding-right: 55px;
+  }
+
+  .construction-station {
+width: 95%;
+  }
+
+  .plane {
+    position: absolute;
+    bottom: -92%;
+    right: 13px
+  }
+
+  .construction {
+padding-right: 295px;
+  }
+
+.construction-palace {
+  width: 65%;
+}
+
+  .participants-title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 54px;
+line-height: 120%;
+text-transform: uppercase;
+color: #313131;
+  }
+
+  .vasyukov-container {
+    padding-left: 50px;
+  }
+
+  .vasyukov {
+    padding-bottom: 184px;
+  }
+
+  .tournament-svg {
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    padding-right: 13px;
+  }
+
+  .left {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #313131;
+position: absolute;
+right: 136px;
+padding-top: 0px;
+  }
+
+  .right {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #313131;
+    position: absolute;
+    right: 136px;
+    padding-top: 0px;
+  }
+
+  .number {
+    display: flex;
+    align-items: center;
+  }
+
+  .left-svg {
+     margin-right: 61px;
+  }
+
+  .participants-tournament {
+    margin-bottom: 60px;
+  }
+
+  .participants-block-list {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .participants-title-name {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 120%;
+color: #313131;
+margin-bottom: 7px;
+
+  }
+
+  .participants-block {
+    padding-left: 18px;
+    padding-right: 24px;
+    margin-bottom: 70px;
+  }
+
+  .block-slide {
+    justify-content: space-between;
+  }
+
+
+  .participannts-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #313131;
+opacity: 0.6;
+margin-bottom: 19px;
+  }
+
+  .btn-participants {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+color: #3057a2;
+border: 1px solid #3057a2;
+border-radius: 62px;
+padding: 12px;
+width: 113px;
+height: 35px;
+padding-top: 9px;
+  }
+
+  .btn-participants:focus {
+    background: #7c9ad3;
+    border: 1px solid #7c9ad3;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .btn-participants:hover {
+    background: #97999d;
+    border: 1px solid #97999d;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.btn-participants:active {
+  background: #3057a2;
+  border: 1px solid #3057a2;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+  .participants-info {
+      padding-left: 9px;
+      padding-top: 25px;
+      padding-right: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .prev {
+    cursor: pointer;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .active-vasyukov {
+    display: flex;
+  }
+
+  svg.prev {
+    fill: #313131;
+  }
+
+ svg.prev:hover {
+    fill: #fbce51;
+    transition: 0.3s ease-in-out;
+  }
+
+    svg.prev:active {
+      fill: #D6D6D6;
+      transition: 0.2s ease-in-out;
+    }
+
+
+    .header-block-two {
+      display: flex;
+      overflow-x: hidden;
+      position: relative;
+      width:100%;
+
+    }
+    @keyframes running-text {
+    100% {
+        transform: translateX(-100%);
+      }
+      0%{
+        transform: translateX(100%);
+      }
+    }
+
+    .header-text-two{
+      top: 300px;
+      width: 2333px;
+      white-space: nowrap;
+      font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    padding: 18px 12px;
+    height: 60px;
+    background: #f54932;
+    animation: running-text 12s linear infinite;
+
+    }
+
+    .futer {
+      background-color: #e9ded4;
+    }
+
+
+
+    .futer-info {
+      padding-top: 40px;
+      padding-bottom: 85px;
+    }
+
+    .agricultural-industry {
+      position: absolute;
+      top: 0;
+      right: 11px;
+      width: 32%;
+    }
+
+    .vasyukov-block {
+      position: relative;
+    }
+    .seven {
+      position: relative;
+      width: 99%;
+margin-right: 0;
+    }
+
+    .six-block {
+      width: 50%;
+    }
+
+    .seven-block {
+      width: 100%;
+    }
+  }
+
+
+  @media (max-width:1310px){
+
+  }

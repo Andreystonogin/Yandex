@@ -1,0 +1,406 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+img {
+  all: inherit;
+  }
+
+a {
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.button {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+.container {
+  margin: 0 auto;
+ max-width: 1700px;
+padding-left: 48px;
+padding-right: 48px;
+}
+
+
+
+body {
+
+    font-family: "Golos text", sans-serif;
+  font-style: normal;
+
+
+  }
+
+
+@font-face {
+  font-family: "Golos text";
+  font-display: swap;
+    src: url(../fonts/GolosText-Regular.woff) format(woff);
+    src: url(../fonts/GolosText-Regular.woff2) format(woff2);
+  font-weight:400;
+font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Golos text";
+  font-display: swap;
+    src: url(../fonts/GolosText-Medium.woff) format(woff);
+    src: url(../fonts/GolosText-Medium.woff2) format(woff2);
+  font-weight: 500;
+font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: "Golos text";
+  font-display: swap;
+  src:url(../fonts/GolosText-Black.woff) format(woff);
+   src:url(../fonts/GolosText-Black.woff2) format(woff2);
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Light.woff) format(woff);
+   src:url(../fonts/Merriweather-Light.woff2) format(woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Regular.woff) format(woff);
+   src:url(../fonts/Merriweather-Regular.woff2) format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Bold.woff) format(woff);
+   src:url(../fonts/Merriweather-Bold.woff2) format(woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Bold.woff) format(woff);
+   src:url(../fonts/Merriweather-Bold.woff2) format(woff2);
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+li {
+  list-style: none;
+
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+picture {
+  font-size: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+:root {
+  --font-family: "Golos Text", sans-serif;
+  --second-family: "Merriweather", sans-serif;
+}
+
+
+
+.horses-block {
+  padding-left: 192px;
+  padding-top: 28px;
+margin-bottom: 66px;
+width: 49.6%;
+}
+
+.club {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 108%;
+text-transform: uppercase;
+color: #595653;
+width: 147px;
+}
+
+.horses-club {
+  margin-right: 6px;
+}
+
+.city {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 60px;
+line-height: 110%;
+text-transform: uppercase;
+color: #313131;
+}
+
+
+.city-container {
+  padding-right: 309px;
+}
+
+
+.club-horses {
+  margin-bottom: 60px;
+}
+
+
+.sity-img {
+  position: relative;
+  width: 41%;
+}
+
+
+.сapital {
+  margin-left: 91px;
+}
+.capital-title {
+  margin-left: 33px;
+}
+
+.picture {
+  position: absolute;
+  left: 385px;
+  top: 165px;
+}
+
+.img-masck {
+  left: 54px;
+  top: 269px;
+  position: absolute;
+}
+
+.picture-sity {
+  position: absolute;
+}
+
+
+.blokc-sity {
+  position: relative;
+}
+
+.img-sity {
+  position: absolute;
+  width: 100%;
+  top:277px;
+  left: 23px;
+}
+
+.text-info {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #313131;
+}
+.text-tournament {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #313131;
+}
+
+.block{
+  min-height: 700px;
+}
+
+.text {
+  padding-left: 29px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.text-info {
+  margin-left: 24px;
+}
+
+
+.picture-vector {
+  position: absolute;
+  top: -6px;
+}
+
+.buttom-support {
+  background: #1f1f1f;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: #fff;
+margin-right: 13px;
+}
+
+.buttom-support:hover {
+  background-color: #fbce51;
+  transition:background-color 0.3s ease-in-out;
+}
+
+.buttom-support:active {
+  background-color: #504423;
+  transition:background-color 0.3s ease-in-out;
+}
+
+
+
+.btn {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  border-radius: 66px;
+width: 263px;
+height: 72px;
+cursor: pointer;
+}
+
+.buttom-detailed {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: #1f1f1f;
+border: 2px solid #1f1f1f;
+padding-left: 48px;
+padding-right: 44px;
+}
+
+.buttom-detailed:hover {
+  border: 2px solid #1f1f1f;
+  background: #1f1f1f;
+  color: #fff;
+  transition:background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.buttom-detailed:active {
+  border: 2px solid #423f3f;
+  background: #423f3f;
+  color: #fff;
+  transition:background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.header-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url(../img/1920.png);
+  width: 100%;
+ }
+
+
+
+
+  .header-block {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    width:100%;
+
+  }
+  @keyframes running-text {
+  100% {
+      transform: translateX(-100%);
+    }
+    0%{
+      transform: translateX(100%);
+    }
+  }
+
+
+
+.header-text{
+  top: 300px;
+  width: 2333px;
+  white-space: nowrap;
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 110%;
+text-transform: uppercase;
+text-align: right;
+color: #fff;
+padding: 18px 12px;
+height: 60px;
+background: #f54932;
+animation: running-text 12s linear infinite;
+
+}
+
+.main {
+  visibility: hidden;
+}

@@ -1,0 +1,438 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+img {
+  all: inherit;
+  }
+
+a {
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.button {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+.container {
+  margin: 0 auto;
+ max-width: 1920px;
+}
+
+
+
+
+
+body {
+
+    font-family: "Golos text", sans-serif;
+  font-style: normal;
+
+
+  }
+
+
+@font-face {
+  font-family: "Golos text";
+  font-display: swap;
+    src: url(../fonts/GolosText-Regular.woff) format(woff);
+    src: url(../fonts/GolosText-Regular.woff2) format(woff2);
+  font-weight:400;
+font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Golos text";
+  font-display: swap;
+    src: url(../fonts/GolosText-Medium.woff) format(woff);
+    src: url(../fonts/GolosText-Medium.woff2) format(woff2);
+  font-weight: 500;
+font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: "Golos text";
+  font-display: swap;
+  src:url(../fonts/GolosText-Black.woff) format(woff);
+   src:url(../fonts/GolosText-Black.woff2) format(woff2);
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Light.woff) format(woff);
+   src:url(../fonts/Merriweather-Light.woff2) format(woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Regular.woff) format(woff);
+   src:url(../fonts/Merriweather-Regular.woff2) format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Bold.woff) format(woff);
+   src:url(../fonts/Merriweather-Bold.woff2) format(woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  font-display: swap;
+  src:url(../fonts/Merriweather-Bold.woff) format(woff);
+   src:url(../fonts/Merriweather-Bold.woff2) format(woff2);
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+li {
+  list-style: none;
+
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+picture {
+  font-size: 0;
+}
+
+
+:root {
+  --font-family: "Golos Text", sans-serif;
+  --second-family: "Merriweather", sans-serif;
+--color-chicago: #595653;
+--color-mine-shaft: #313131;
+--color-wite: #ffffff;
+--color-saffron-mango: #fbce51;
+--color-lisbon-brown: #504423;
+--color-tundora: #423f3f;
+--color-abbey:  #f54932 ;
+
+
+}
+
+
+
+.horses-block {
+width: 46.6%;
+padding-top: 26px;
+padding-left: 347px;
+}
+
+.club {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 108%;
+text-transform: uppercase;
+color:var(--color-chicago);
+width: 147px;
+}
+
+.horses-club {
+  margin-right: 6px;
+}
+
+.city {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 60px;
+line-height: 110%;
+text-transform: uppercase;
+color:var(--color-mine-shaft);
+}
+
+
+.city-container {
+  padding-right: 309px;
+}
+
+.city-tile {
+  margin-bottom: 25px;
+}
+
+.club-horses {
+  margin-bottom: 60px;
+}
+
+
+.sity-img {
+  position: relative;
+  width: 41%;
+}
+
+
+.сapital {
+  margin-left: 91px;
+}
+.capital-title {
+  margin-left: 33px;
+}
+
+.picture {
+  position: absolute;
+  left: 385px;
+  top: 165px;
+}
+
+.img-masck {
+  left: 54px;
+  top: 269px;
+  position: absolute;
+}
+
+.picture-sity {
+  position: absolute;
+}
+
+
+.img-sity {
+  position: absolute;
+  width: 100%;
+  top:277px;
+  left: 23px;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-info {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 130%;
+  color: var(--color-mine-shaft);
+  text-align: center;
+  width: 100%;
+}
+.text-tournament {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color:var(--color-mine-shaft);
+}
+
+.block{
+  min-height: 700px;
+}
+
+.text {
+  margin-left: 29px;
+  margin-bottom: 40px;
+}
+
+
+
+
+.picture-vector {
+  position: absolute;
+  top: -6px;
+}
+
+.buttom-support {
+  background: var(--color-mine-shaft);
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: var(--color-wite);
+margin-right: 13px;
+}
+
+.buttom-support:hover {
+  background-color: var(--color-saffron-mango);
+  transition:background-color 0.3s ease-in-out;
+}
+
+.buttom-support:active {
+  background-color: var(--color-lisbon-brown);
+  transition:background-color 0.3s ease-in-out;
+}
+
+
+
+.btn {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+  border-radius: 66px;
+width: 263px;
+height: 72px;
+cursor: pointer;
+}
+
+.buttom-detailed {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: var(--color-Mine-Shaft);
+border: 2px solid var(--color-mine-shaft);
+padding-left: 48px;
+padding-right: 44px;
+}
+
+.buttom-detailed:hover {
+  border: 2px solid var(--color-mine-shaft);
+  background: var(--color-mine-shaft);
+  color:var(--color-wite);
+  transition:background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.buttom-detailed:active {
+  border: 2px solid var(--color-tundora);
+  background: var(--color-tundora);
+  color: var(--color-wite);
+  transition:background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+.header-section {
+  background-repeat: no-repeat;
+  background-image: url(../img/1920.png);
+background-size: cover;
+background-position: center;
+
+ }
+
+
+ .blokc-sity {
+  position: relative;
+
+
+}
+
+
+  .header-block {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    width:100%;
+
+  }
+  @keyframes running-text {
+  100% {
+      transform: translateX(-100%);
+    }
+    0%{
+      transform: translateX(100%);
+    }
+  }
+
+
+
+.header-text{
+  top: 300px;
+  width: 2333px;
+  white-space: nowrap;
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 110%;
+text-transform: uppercase;
+text-align: right;
+color: var(--color-wite);
+padding: 18px 12px;
+height: 60px;
+background:var(--color-abbey);
+animation: running-text 12s linear infinite;
+
+}
+
+.main {
+display: none;
+}
+
+.display{
+  display: block;
+}
+
+.the-globe {
+  margin-left: 33px;
+}
+
+.display-none {
+  display: none;
+}
+
+.vasyuckov-tile-block {
+  width: 70%;
+  margin-bottom: 52px;
+}
+
+
